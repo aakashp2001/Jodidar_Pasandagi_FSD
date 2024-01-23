@@ -1,0 +1,42 @@
+body{
+    /* Ref: https://www.linandjirsa.com/varmala-indian-wedding-tradition/ */
+    background-image: url(res/bg3.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+
+::-webkit-scrollbar {
+    width: .3rem;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba(27, 27, 27, 0.75);
+    border-radius: 3px;
+}
+::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+.info-bg{
+    background-color: rgba(206, 212, 218, 0.8)
+}
+
+.nav-bg{
+    background-color: rgba(165, 151, 136, 0.9)
+}
+
+.login-card{
+    background-color: rgba(207, 226, 255, 0.8)
+}
+
+
+.login-card input{
+    background-color: rgba(163, 201, 211, 0.568);
+}
+
+.login-card input:focus{
+    background-color: rgba(163, 201, 211, 0.568);
+}
+

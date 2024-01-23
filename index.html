@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Ref: https://stackoverflow.com/questions/11488960/how-do-i-put-my-websites-logo-to-be-the-icon-image-in-browser-tabs -->
+  <link rel="icon" href="res/logo.png">
+  <title>Jodidar Pasandgi</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="container mt-2 rounded-4 nav-bg shadow ">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a href="index.html"><img src="res/logo.png" class="d-inline-block" alt="logo" height="40" width="40"></a>
+        <a class="navbar-brand" href="index.html">Jodidar Pasandagi</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-primary" href="login.html">Join Now</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="container mt-3 p-3 info-bg rounded-4">
+    <div class="row">
+      <div class="col-lg-6 align-self-center">
+        <h1 class="hero-title">Jodidar Pasandagi: Find Your Perfect Match</h1>
+        <p class="hero-text">Discover thousands of profiles and connect with your soulmate.</p>
+        <a href="login.html" class="btn btn-primary btn-lg">Start Now</a>
+      </div>
+      <div class="col-lg-6">
+        <img src="res/Designer.png" alt="Happy Couple" class="img-fluid p-3 rounded-5">
+      </div>
+    </div>
+  </div>
+  <div class="container mt-3 p-3 info-bg rounded-4">
+    <h2 class="section-title">Why Choose Us?</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="feature-item m-1 p-3 rounded-4">
+          <h3 class="align-items-center"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" height="20"
+              width="20"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path
+                d="M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3zM625 177L497 305c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L591 143c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z" />
+            </svg>&nbsp;Genuine Profiles</h3>
+          <p>We meticulously filter and verify our vast member base, ensuring you encounter authentic individuals
+            seeking meaningful relationships.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-item m-1 p-3 rounded-4">
+          <h3><img src="res/match.png" width="20" height="20" /> Advanced Matching</h3>
+          <p>Our intelligent algorithms go beyond demographics to understand your personality, values, and aspirations,
+            matching you with individuals who truly complement your unique qualities.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-item m-1 p-3 rounded-4">
+          <h3><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="20"
+              width="20"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path
+                d="M144 144v48H304V144c0-44.2-35.8-80-80-80s-80 35.8-80 80zM80 192V144C80 64.5 144.5 0 224 0s144 64.5 144 144v48h16c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V256c0-35.3 28.7-64 64-64H80z" />
+            </svg>&nbsp;Secure and Safe</h3>
+          <p>Your privacy is our top priority. We employ cutting-edge security measures and rigorous guidelines to
+            create a safe and respectful environment for everyone.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container info-bg rounded-4 mt-3 p-3">
+    <div class="row">
+      <div id="success" class="carousel slide" data-bs-ride="carousel" data-bs-touch="false">
+        <button class="carousel-control-prev bg-dark" type="button" data-bs-target="#success" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#success" data-bs-slide-to="0" class="active bg-dark"></button>
+          <button type="button" data-bs-target="#success" data-bs-slide-to="1" class="bg-dark"></button>
+          <button type="button" data-bs-target="#success" data-bs-slide-to="2" class="bg-dark"></button>
+        </div>
+        <div class="carousel-inner align-items-center">
+          <div class="carousel-item active">
+            <img src="res/match.png" alt="Image 1" class="d-block w-100" style="height: 400px;">
+          </div>
+          <div class="carousel-item">
+            <img src="res/about_img.png" alt="Image 2" class="d-block w-100" style="height: 400px;">
+          </div>
+          <div class="carousel-item">
+            <img src="res/Designer.png" alt="Image 3" class="d-block w-100" style="height: 400px;">
+          </div>
+        </div>
+        <button class="carousel-control-next bg-dark col-lg-3" type="button" data-bs-target="#success"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <p class="text-center">Copyright &copy; Jodidar Pasandagi 2024</p>
+  </div>
+</body>
+
+</html>

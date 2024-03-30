@@ -40,3 +40,14 @@ body{
     background-color: rgba(163, 201, 211, 0.568);
 }
 
+input[type="file"]::file-selector-button {
+    border: 2px solid rgba(0, 0, 0, 0.568);;
+    padding: 0.2em 0.4em;
+    border-radius: 0.2em;
+    background-color: rgba(163, 201, 211, 0.568);;
+    transition: 1s;
+  }
+  
+  input[type="file"]::file-selector-button:hover {
+    background-color: rgba(163, 201, 211, 0.568);
+  }
